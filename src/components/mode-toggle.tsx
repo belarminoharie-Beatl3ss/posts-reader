@@ -37,3 +37,5 @@ export function ModeToggle() {
     </DropdownMenu>
   );
 }
+
+export default ModeToggle;
