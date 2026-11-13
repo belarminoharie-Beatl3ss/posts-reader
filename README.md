@@ -1,3 +1,8 @@
+# Posts Reader
+
+Live Demo: https://posts-reader-black.vercel.app/
+
+A React + TypeScript application for browsing posts and reading nested comments.
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -73,3 +78,4 @@ export default defineConfig([
 ])
 
 ```
+
