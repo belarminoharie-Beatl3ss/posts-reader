@@ -1,11 +1,14 @@
-
+import { Route, Routes } from "react-router";
 import Layout from "@/components/layout";
+import HomeScreen from "@/pages/HomeScreen";
 
 function App() {
   return (
-    <Layout>
-      <p className="mt-10 text-muted-foreground">Posts will appear here in Lab 11.</p>
-    </Layout>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomeScreen />} />
+      </Route>
+    </Routes>
   );
 }
 
